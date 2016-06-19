@@ -1,4 +1,4 @@
-FROM library/python
+FROM library/python:2
 
 RUN mkdir /flask-file-uploader/
 ADD . /flask-file-uploader/
