@@ -6,6 +6,6 @@ WORKDIR /flask-file-uploader
 RUN apt-get update && apt-get install libjpeg-dev -y
 
 RUN pip install -r requirements.txt
-
+EXPOSE 9191
 CMD ./app.py
 
