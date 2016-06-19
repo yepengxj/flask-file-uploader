@@ -7,5 +7,5 @@ RUN apt-get update && apt-get install libjpeg-dev -y
 
 RUN pip install -r requirements.txt
 EXPOSE 9191
-CMD ./app.py
+CMD python ./app.py
 
